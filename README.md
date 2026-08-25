@@ -1,5 +1,6 @@
 # Student Enrollment System
-##### Disclaimer: This README file is assisted by AI to smoothen the flow of the words
+##### Created by: Reyes, Rhenie James C.
+###### Disclaimer: This README file is assisted by AI to smoothen the flow of the words
 This is a simple command-line program where it involves student enrollment system with an integration of **SQLite** as database (`sqlite3` standard library).
 
 ## 1. Data Model
@@ -36,5 +37,4 @@ python3 main.py
 
 On first run, `university.db` is created in the same folder and populated
 with the `Students`, `Courses`, and `Enrollments` tables plus the default
-course list.# reyes_rheniejames_labactivity5
-# reyes_rheniejames_labactivity5
+course list.
