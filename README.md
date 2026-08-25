@@ -27,7 +27,7 @@ The database (`university.db`) and tables are created automatically the first ti
 ## 3. Requirements
 
 - Python 3.7+
-- No external libraries — only the built-in `sqlite3` module
+- No external libraries. We only use the built-in `sqlite3` module
 
 ## 4. How to Run
 
