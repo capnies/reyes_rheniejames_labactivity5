@@ -119,7 +119,7 @@ def enroll_student(cursor, conn):
         conn.commit()
         print(f"Successfully enrolled Student {student_id} into {course_code}!")
     except ValueError:
-        print("Error: Invalid input format.")
+        print("Error: Invalid input format!")
 
 def main():
     conn = sqlite3.connect('university.db')
