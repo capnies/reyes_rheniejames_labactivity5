@@ -4,13 +4,11 @@ CREATE TABLE IF NOT EXISTS Students (
     LastName TEXT NOT NULL,
     Major TEXT
 );
-
 CREATE TABLE IF NOT EXISTS Courses (
     CourseCode TEXT PRIMARY KEY,
     CourseName TEXT NOT NULL,
     Credits INTEGER
 );
-
 CREATE TABLE IF NOT EXISTS Enrollments (
     EnrollmentID INTEGER PRIMARY KEY AUTOINCREMENT,
     StudentID INTEGER,
