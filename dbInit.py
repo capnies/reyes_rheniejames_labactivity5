@@ -1,3 +1,4 @@
+##AAAAAAA dko matandaan na sql masyado
 import sqlite3
 
 def setup_database(cursor, conn):
